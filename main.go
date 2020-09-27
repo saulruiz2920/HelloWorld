@@ -3,5 +3,8 @@ package main
 import "fmt"
 
 func main() {
-  fmt.Println("Hello World")
+  var age int
+  fmt.Print("Input your age: ")
+  fmt.Scan(&age)
+  fmt.Printf("You are %d years old\n", age)
 }
